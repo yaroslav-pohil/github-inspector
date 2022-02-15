@@ -8,7 +8,7 @@ services:
     volumes:
       - ./:/var/www:cached
     environment:
-      PHP_IDE_CONFIG: "serverName=ht-server"
+      PHP_IDE_CONFIG: "serverName=gr-server"
 
   # The Web Server
   web:
